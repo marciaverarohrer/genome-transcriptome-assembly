@@ -1,0 +1,6 @@
+*.fasta
+Kar-1
+QC/fastQC/*.zip
+QC/jellyfish/*.jf
+QC/logs
+RNAseq_Sha
