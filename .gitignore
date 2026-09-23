@@ -5,3 +5,4 @@ QC/jellyfish/*.jf
 QC/logs
 RNAseq_Sha
 Q_and_A.md
+assembly/
