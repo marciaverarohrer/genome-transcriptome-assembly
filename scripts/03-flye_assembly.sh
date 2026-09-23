@@ -6,8 +6,8 @@
 #SBATCH --job-name=flye_assembly
 #SBATCH --mail-user=marcia.rohrer@students.unibe.ch
 #SBATCH --mail-type=end
-#SBATCH --output=/data/users/mrohrer/assembly_annotation_course/QC/logs/output_flye_%j.o
-#SBATCH --error=/data/users/mrohrer/assembly_annotation_course/QC/logs/error_flye_%j.e
+#SBATCH --output=/data/users/mrohrer/assembly_annotation_course/assembly/logs/output_flye_%j.o
+#SBATCH --error=/data/users/mrohrer/assembly_annotation_course/assembly/logs/error_flye_%j.e
 #SBATCH --partition=pibu_el8
 
 WORKDIR=/data/users/mrohrer/assembly_annotation_course

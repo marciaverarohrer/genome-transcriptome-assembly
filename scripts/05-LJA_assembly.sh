@@ -19,4 +19,5 @@ apptainer exec \
 lja \
 -o $OUTDIR \
 --reads $WORKDIR/Kar-1/ERR11437325.fastq.gz \
+--diploid \
 -t 16
