@@ -8,4 +8,7 @@ Further the quality of the assemblies is evaluated using BUSCO, QUAST, merqury.
 
 The assembled genomes from flye, hifiasm and LJA are compared against the Arabidopsis thaliana reference and against each other using nucmer and mummer.
 
-For the detailed step-by-step explanation look into the step_by_step.md.
+Structure of the repository:
+/scripts : containing 10 bash scripts used for the practical part
+/QC : folder for fastQC and jellyfish output results (contains 3 .html files from fastQC and one reads.histo file from jellyfish)
+README.md as well as a more detailed step-by-step documentation step_by_step.md.
